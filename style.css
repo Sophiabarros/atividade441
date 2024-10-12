@@ -1,0 +1,145 @@
+
+:root{
+    --azul-escuro: #11141e;
+    --azul-menos-escuro: #1b1e2f;
+    --azul-1div: #fff1;
+    --azul-2div: #fff1;
+    --azul-3div: #fff1;
+    --branco-azul: #c2cdfa;
+    --branco: #dbeafe;
+    --azul-esverdeado: #74B7C8;
+    }
+    
+    *{
+       
+        cursor: url(https://s3.getstickerpack.com/storage/uploads/sticker-pack/genshin-impact-wanderer/sticker_3.png?843fd7058a1f79b65b13d715c6132bed&d=200x200) ;
+        font-family: "Nunito", sans-serif;
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    .logo{
+        width: 45px;
+    }
+    .header,
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .header{
+        background-color: var(--azul-menos-escuro);
+        justify-content: space-between;
+        padding: 0 10%;
+        height: 3.5em;
+        box-shadow: 1px 1px 4px black;
+        padding: 0 10%;
+    }
+    
+    .navegacao{
+        gap: 3rem;
+    }
+    
+    .navegacao a{
+        text-decoration: none;
+        color: var(--branco);
+    }
+    
+    body{
+     background-color: var(--azul-escuro);
+      text-align: center;
+     font-size: 20px;
+     color: var(--branco-azul);
+    }
+    
+     .logo img{
+    
+        padding: 1.5rem;
+        border-radius: 50%;
+        height: 2.5rem;
+        width: 2.5rem;
+    
+     }
+    
+     .titulo h1{
+
+        color: var(--azul-esverdeado);
+     }
+
+    h1{
+        font-size: 40px;
+        font-style: bold;
+        text-align: left;
+        margin-left: 30px;
+        padding-block: 20px;
+    }
+
+    img {
+        height: 20rem;
+        width: 20rem;
+        border-radius: 5%;
+    }
+
+    .primeiradiv p {
+        /*border: 1px solid red;*/
+        height: 10rem;
+        width: 30rem;
+    }
+
+    .primeiradiv {
+        margin-inline: auto;
+        margin-block: 5rem;
+        padding-block: 2.5rem;
+        max-width: 70rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: var(--azul-1div);
+        border-radius: 2.5rem;
+        /*border: 1px solid greenyellow;*/
+        box-shadow: 0px 0px 7px black;
+    }
+
+    .segundadiv {
+        height: 30rem;
+        margin-inline: auto;
+        margin-block: 5rem;
+        padding-block: 2.5rem;
+        max-width: 70rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: var(--azul-1div);
+        border-radius: 2.5rem;
+        /*border: 1px solid greenyellow;*/
+        box-shadow: 0px 0px 7px black;
+    }
+
+    
+    .segundadiv p {
+        /*border: 1px solid red;*/
+        height: 10rem;
+        width: 20rem;
+    }
+
+    .terceiradiv {
+        margin-inline: auto;
+        margin-block: 5rem;
+        padding-block: 2.5rem;
+        max-width: 70rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--azul-1div);
+        border-radius: 2.5rem;
+        /*/border: 1px solid greenyellow;/*/
+        box-shadow: 0px 0px 7px black;
+    }
+
+    .terceiradiv img {
+        margin-block: 1.5rem;
+    }
