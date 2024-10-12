@@ -2,27 +2,30 @@
 :root{
     --azul-escuro: #11141e;
     --azul-menos-escuro: #1b1e2f;
-    --azul-1div: #fff1;
-    --azul-2div: #fff1;
-    --azul-3div: #fff1;
-    --branco-azul: #c2cdfa;
-    --branco: #dbeafe;
+    --azuldiv: #fff1;
+    --azul-1div: #006793;
+    --azul-2div: #005b7f;
+    --azul-3div: #016492;
+    --branco-azul: #F2F2F2;
+    --branco: #F2F2F2;
     --azul-esverdeado: #74B7C8;
     }
     
     *{
-       
-        cursor: url(https://s3.getstickerpack.com/storage/uploads/sticker-pack/genshin-impact-wanderer/sticker_3.png?843fd7058a1f79b65b13d715c6132bed&d=200x200) ;
         font-family: "Nunito", sans-serif;
         font-size: 15px;
         padding: 0;
         margin: 0;
     }
     
-    
+    p{
+        font-size: large;
+    }
+
     .logo{
         width: 45px;
     }
+
     .header,
     .navigation{
         display: flex;
@@ -33,7 +36,7 @@
         background-color: var(--azul-menos-escuro);
         justify-content: space-between;
         padding: 0 10%;
-        height: 3.5em;
+        height: 5rem;
         box-shadow: 1px 1px 4px black;
         padding: 0 10%;
     }
@@ -82,25 +85,50 @@
         border-radius: 5%;
     }
 
+    h2{
+        font-size: 2.5rem;
+        text-align: left;
+        margin-block: 1rem;
+        color: var(--azul-esverdeado);
+    }
+
+    .texto {
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      
+    .primeiradiv .texto {
+            height: 11rem;
+            width: 30rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+
     .primeiradiv p {
-        /*border: 1px solid red;*/
-        height: 10rem;
+        height: 5rem;
         width: 30rem;
     }
+
 
     .primeiradiv {
         margin-inline: auto;
         margin-block: 5rem;
         padding-block: 2.5rem;
+        padding-inline: 3rem;
         max-width: 70rem;
         display: flex;
         align-items: center;
         flex-direction: row;
         justify-content: space-evenly;
-        background-color: var(--azul-1div);
+        background-color: var(--azuldiv);
         border-radius: 2.5rem;
         /*border: 1px solid greenyellow;*/
         box-shadow: 0px 0px 7px black;
+        transition: background-color 0.6s ease-in-out;
     }
 
     .segundadiv {
@@ -108,15 +136,17 @@
         margin-inline: auto;
         margin-block: 5rem;
         padding-block: 2.5rem;
+        padding-inline: 3rem;
         max-width: 70rem;
         display: flex;
         align-items: center;
         flex-direction: row;
         justify-content: space-evenly;
-        background-color: var(--azul-1div);
+        background-color: var(--azuldiv);
         border-radius: 2.5rem;
         /*border: 1px solid greenyellow;*/
         box-shadow: 0px 0px 7px black;
+        transition: background-color 0.6s ease-in-out;
     }
 
     
@@ -127,14 +157,16 @@
     }
 
     .terceiradiv {
+        width: 20rem;
         margin-inline: auto;
         margin-block: 5rem;
         padding-block: 2.5rem;
+        padding-inline: 3rem;
         max-width: 70rem;
         display: flex;
         align-items: center;
         flex-direction: column;
-        background-color: var(--azul-1div);
+        background-color: var(--azuldiv);
         border-radius: 2.5rem;
         /*/border: 1px solid greenyellow;/*/
         box-shadow: 0px 0px 7px black;
@@ -143,3 +175,39 @@
     .terceiradiv img {
         margin-block: 1.5rem;
     }
+
+    .primeiradiv, .segundadiv, .terceiradiv {
+        margin-block: 5rem;
+    }
+  
+    .primeiradiv:hover{
+        background-color: var(--azul-1div);
+    }
+
+    .segundadiv:hover {
+        background-color: var(--azul-2div);
+      }    
+      .creditos{
+        background-color: var(--azuldiv);
+        margin-inline: auto;
+        margin-block: 5rem;
+        /*border: 1px solid yellow;*/
+        height: 5rem;
+        width: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.5rem;
+        box-shadow: 0px 0px 7px black;
+        transition: background-color 0.6s ease-in-out;
+      }
+
+      .creditos p{
+        font-size: 1rem;
+      }
+
+      .creditos:hover {
+        background-color: var(--azul-3div);
+      }
+
+      
